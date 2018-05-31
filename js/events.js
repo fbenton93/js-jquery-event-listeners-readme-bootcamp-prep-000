@@ -8,6 +8,8 @@ function frameIt() {
   $('img').attr('class','tasty');
 }
 
+// I didn't bind an event on 'load' because of the document.ready
+
 function pressIt() {
   $('#typing').on('keydown',function(key){
     if (key.which == 71) {
